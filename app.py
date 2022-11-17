@@ -10,4 +10,4 @@ def hello_world():  # put application's code here
 
 if __name__ == '__main__':
     app.jinja_env.cache = {}
-    app.run(host='0.0.0.0', port=2000, debug=True, threading=True)
+    app.run(host='0.0.0.0', port=3000, debug=True, threaded=True)
